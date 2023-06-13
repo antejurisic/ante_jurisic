@@ -1,0 +1,83 @@
+@charset "UTF-8";
+h1 {
+  font-family: "AnteJurisic";
+  color: black;
+}
+p {
+  color: maroon;
+  font-family: constantia, "Lucida Bright", "DejaVu Serif", Georgia, "Serif";
+  font-size: 20px;
+  line-height: 18px;
+  width: 600px;
+  background-color: lightgrey;
+  padding: 15px;
+}
+.paragraf_2 {
+  color: darkcyan;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.novi_blok {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  margin: 20px;
+  width: 43%;
+}
+body {
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background-color: maroon;
+      height: 50px;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: left;
+      align-items: left;
+      height: 100%;
+    }
+
+    li {
+      margin: 0 10px;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Početna</a></li>
+      <li><a href="o_meni.html">O meni</a></li>
+      <li><a href="video.html">Video</a></li>
+      <li><a href="vjezbe.html">O meni</a></li>
+    </ul>
+  </nav>
+}
+h2 {
+  font-family: "Times New Roman", serif;
+}
+body{
+	background-image: url("slike/pozadina1.jpg")
+}
+span {color: red;}
+a:link {
+  color: black;
+  padding: 5px;
+  line-height: 40px;
+  border: 1px solid #000000;
+}
+a:hover {
+  background-color: darkgray;
+}
+img {
+  height: 260px;
+}
